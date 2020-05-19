@@ -54,3 +54,33 @@
 
 
 /*<!--End Nav Bar-->*/
+
+
+/*<!--Start Carousal -->*/
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item p{
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  transform: translate(-00%, -40%);
+  color: #08526d;
+  font-size:1.5rem;
+  font-weight: bolder;
+  -webkit-transform: translate(-00%, -40%);
+  -moz-transform: translate(-00%, -40%);
+  -ms-transform: translate(-00%, -40%);
+  -o-transform: translate(-00%, -40%);
+}
+
+.carousel-item p span{
+    background-color:#ed242b;
+  }
+
+/*<!--End Carousal -->*/
+
+/*<!--Start Feature Section -->*/
