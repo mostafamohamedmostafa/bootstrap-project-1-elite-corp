@@ -285,6 +285,8 @@
 
     background: url("https://cdn.pixabay.com/photo/2020/02/23/22/53/board-4874845_960_720.jpg") center center no-repeat;
     background-size: cover;
+    margin-bottom: 25px;
+    height: 30vh;
 
 }
 
@@ -307,3 +309,37 @@
 }
 
 /*<!--End Testimonials Section -->*/
+
+
+/*<!--Start Prices Section -->*/
+.pricing-table{
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.pricing-table a{
+    background-color: #ed1d24;
+    color: white;
+    font-size: 1.1rem;
+    border: solid #ed1d24 3px;
+    padding: 10px 15px;
+}
+
+.pricing-table .card:hover{ transform:scale(1.1); 
+    -webkit-transition:; 
+    -moz-transition:; 
+    -ms-transition:;
+     -o-transition:; 
+     -webkit-transform:scale(1.1); 
+     -moz-transform:scale(1.1);
+      -ms-transform:scale(1.1); 
+      -o-transform:scale(1.1);
+}
+
+.corporate{
+    background-color: #ed1d24;
+    color: white;
+}
+
+/*<!--End Prices Section -->*/
