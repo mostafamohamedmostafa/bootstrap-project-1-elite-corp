@@ -343,3 +343,17 @@
 }
 
 /*<!--End Prices Section -->*/
+
+
+/*<!--Start Whyus Section -->*/
+.why-us{
+    height: 40vh;
+}
+
+.why-us-style h3{
+    font-size: xx-large;
+    color: white;
+}
+
+
+/*<!--End Whyus Section -->*/
