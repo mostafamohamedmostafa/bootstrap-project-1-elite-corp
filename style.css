@@ -63,15 +63,24 @@
 .carousel-item {
     background-size: cover;
     background-position: center;
+    
 }
 
+@media(max-width:768px){
+   #main-slider .carousel-item p {
+        font-size: 1.7rem;
+        text-align: center;
+        left: auto;
+        max-width: 100%;
+    }
+}
 .carousel-item p {
     position: absolute;
     left: 10%;
     top: 40%;
     transform: translate(-00%, -40%);
-    color: #08526d;
-    font-size: 1.5rem;
+    color: #2696be;
+    font-size: 3rem;
     font-weight: bolder;
     -webkit-transform: translate(-00%, -40%);
     -moz-transform: translate(-00%, -40%);
@@ -82,6 +91,7 @@
 .carousel-item p span {
     background-color: #ed242b;
 }
+
 
 /*<!--End Carousal -->*/
 
