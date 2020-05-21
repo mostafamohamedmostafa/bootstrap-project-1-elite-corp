@@ -347,13 +347,73 @@
 
 /*<!--Start Whyus Section -->*/
 .why-us{
-    height: 40vh;
+     
 }
+
+.why-us img{
+    height: 100%;
+}
+
+
+.why-us-style{
+background-color: #08526d;
+padding: 25px;
+
+}
+
+
 
 .why-us-style h3{
     font-size: xx-large;
     color: white;
 }
 
+.why-us-style p{
+    font-size: large;
+    color: #88a5b1;
+}
+.why-us-style a{
+   background-color:#ed1d24 ;
+   border: #ed1d24 3px solid;
+   color: white;
+   font-weight: bolder;
+   padding: 10px 10px;
+   
+}
 
+.why-us-style a:hover{
+    background-color:transparent ;
+    color: white;
+    border: none;
+ 
+ }
 /*<!--End Whyus Section -->*/
+
+/*<!--Start Project Statistics  Section -->*/
+.statistics{
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.statistics i,h5{
+    font-size: 2rem;
+    color: #08526d;
+}
+
+.statistics span{
+    color: #ed1d24;
+    font-size: 1.5rem;
+}
+
+.statistics i,h5,span :hover{
+ transition: all ease-in-out 3s;
+ -webkit-transition: all ease-in-out 3s;
+ -moz-transition: all ease-in-out 3s;
+ -ms-transition: all ease-in-out 3s;
+ -o-transition: all ease-in-out 3s;
+}
+
+
+
+/*<!--End Project Statistics  Section -->*/
+
