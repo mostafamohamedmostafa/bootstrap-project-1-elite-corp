@@ -262,6 +262,11 @@
     -o-transition: ease-in-out all 2s;
 }
 
+.card{
+    margin-bottom: 15px;
+}
+
+
 .card h5 {
     color: #08526d;
 
@@ -517,5 +522,32 @@ padding: 25px;
   border: #ed1d24 1px solid;
 }
 
+
 /*<!--End Footer Section -->*/
+
+.copy-right i{
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.copy-right i:hover{
+ transform: scale(2);
+ -webkit-transform: scale(2);
+ -moz-transform: scale(2);
+ -ms-transform: scale(2);
+ -o-transform: scale(2);
+ color: #ed1d24;
+ transition:all ease-in-out 3s ;
+ -webkit-transition:;
+ -moz-transition:;
+ -ms-transition:;
+ -o-transition:;
+}
+/*<!--Start Copy rights Section -->*/
+
+
+
+
+
+/*<!--End Copy rights Section -->*/
 
