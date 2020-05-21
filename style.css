@@ -444,7 +444,7 @@ padding: 25px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: #08526d;
+    color: white;
     font-size: 1.1rem;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -455,9 +455,67 @@ padding: 25px;
 .contact a:hover{
     background-color: #2696be;
     border:white 3px solid;
+    text-decoration: none;
 }
 
 
 
 /*<!--End Contact us  Section -->*/
+
+
+/*<!--Start of Footer Section -->*/
+.footer{
+    padding: 0 40px;
+}
+.site-info span {
+    font-size: 2rem;
+}
+
+.site-info span:first-of-type {
+    color: #08526d;
+    font-weight: bold;
+}
+
+.site-info span:last-of-type{
+
+    color: #ed242b;
+}
+
+.site-info a{
+    color: #08526d;
+    font-weight: bold;
+}
+.helpful-links h4{
+    text-align: center;
+}
+
+.helpful-links ul li{
+    padding-bottom: 20px;
+}
+
+.helpful-links li a:hover{
+    text-decoration: none;
+    color: #ed1d24;
+    font-weight: bold;
+    transition: ease-in-out 2s all;
+}
+
+.contact-us ul li{
+    padding-bottom: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.contact-us i{
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+.contact-us ul li:hover{
+  color: #08526d;
+  transform: scale(1.1);
+  border: #ed1d24 1px solid;
+}
+
+/*<!--End Footer Section -->*/
 
