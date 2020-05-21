@@ -407,13 +407,57 @@ padding: 25px;
 
 .statistics i,h5,span :hover{
  transition: all ease-in-out 3s;
- -webkit-transition: all ease-in-out 3s;
- -moz-transition: all ease-in-out 3s;
- -ms-transition: all ease-in-out 3s;
- -o-transition: all ease-in-out 3s;
+ -webkit-transition:;
+ -moz-transition:;
+ -ms-transition:;
+ -o-transition:;
 }
 
 
 
 /*<!--End Project Statistics  Section -->*/
+/*<!--Start Contact US Section -->*/
+.contact{
+    background-color: #ed1d24;
+    height: 100%;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+.contact h1{
+    justify-self: center;
+    color: white;
+    font-size: 2rem;
+ 
+  
+}
+
+.contact a{
+    border:white 3px solid;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #08526d;
+    font-size: 1.1rem;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.contact a:hover{
+    background-color: #2696be;
+    border:white 3px solid;
+}
+
+
+
+/*<!--End Contact us  Section -->*/
 
